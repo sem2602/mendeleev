@@ -11,7 +11,12 @@
 </head>
 <body>
 
-    @yield('content')
+    <div class="container">
+
+        @yield('content')
+
+    </div>
+
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.min.js"></script>
 </body>
