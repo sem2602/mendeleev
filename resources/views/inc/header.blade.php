@@ -5,10 +5,8 @@
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <div class="navbar-brand ms-3">
             <span href="/">MendeleevPanel</span>
-            <span href="/updates">v2.0</span>
+            <small href="/updates">v2.0</small>
         </div>
-
-
 
         <div class="navbar-custom d-lg-none me-2">
             <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsDefault" aria-controls="navbarsDefault" aria-expanded="false" aria-label="Toggle navigation">
@@ -18,14 +16,12 @@
 
         <div class="collapse navbar-collapse justify-content-between ms-3" id="navbarsDefault">
 
-            <ul class="navbar-nav mr-auto">
-                <li class="nav-item">
+            <ul class="navbar-nav">
+                <li class="nav-item me-2">
                     <a class="nav-link" href="/">Главная</a>
                 </li>
 
-
-
-                <li class="nav-item dropdown">
+                <li class="nav-item dropdown me-2">
                     <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown" aria-expanded="false">Заказы</a>
                     <ul class="dropdown-menu">
                         <li><a class="dropdown-item" href="/orders/create">Новый заказ</a></li>
@@ -41,14 +37,14 @@
                     </ul>
                 </li>
 
-                <li class="nav-item dropdown">
+                <li class="nav-item dropdown me-2">
                     <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown" aria-expanded="false">Платежи</a>
                     <ul class="dropdown-menu">
                         <li><a class="dropdown-item" href="/payments/privat24">Privat24</a></li>
                     </ul>
                 </li>
 
-                <li class="nav-item dropdown">
+                <li class="nav-item dropdown me-2">
                     <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown" aria-expanded="false">Товары</a>
                     <ul class="dropdown-menu">
                         <li><a class="dropdown-item" href="/products">Список товаров</a></li>
@@ -66,9 +62,11 @@
                     <ul class="dropdown-menu">
                         <li><a class="dropdown-item" href="/marking">Маркировка</a></li>
                         <li><a class="dropdown-item" href="/maxi-marking">Маркировка Maxi</a></li>
+                        <div class="dropdown-divider"></div>
                         <li><a class="dropdown-item" href="/clients">Клиенты</a></li>
                         <li><a class="dropdown-item" href="/users">Пользователи</a></li>
                         <li><a class="dropdown-item" href="/blacklist">Чёрный список</a></li>
+                        <div class="dropdown-divider"></div>
                         <li><a class="dropdown-item" href="/history">История</a></li>
                         <li><a class="dropdown-item" href="/storage_history">Складская история</a></li>
                         <li><a class="dropdown-item" href="/settings">Настройки</a></li>
